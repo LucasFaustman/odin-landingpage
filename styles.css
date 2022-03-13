@@ -5,9 +5,10 @@ body {
 
 .entireheader {
     background-color: #1f2937;
-    padding-left: 164px;
-    padding-top: 16px;
-    padding-right: 164px;
+    padding-left: 64px;
+    padding-top: 40px;
+    padding-right: 64px;
+    padding-bottom: 10px;
 }
 
 .header {
@@ -35,4 +36,46 @@ ul {
     font-size: 18px;
     margin: 0;
     padding: 0;
+}
+
+.second-header {
+    display: flex;
+    padding: 200px;
+    justify-content: space-between;
+    max-width: 75%;
+}
+
+.awesometext {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 52px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #e5e7eb;
+    font-size: 22px;
+}
+
+.header-image {
+    max-width: 50%;
+    max-height: auto;
+    flex: 1;
+}
+
+.signup {
+    max-width: 125px;
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #e5e7eb;
+    border: 5px;
+    border-radius: 5px;
+    padding: 7px;
 }
